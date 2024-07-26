@@ -32,6 +32,7 @@ LocalGPT is a web application that serves a local Large Language Model (LLM) usi
 
 ## Future Work
 
+- Allow access network wide. This will also allow port forwarding or similar such that the service can be accessed from anywhere. - **This is priorty #1**
 - Integration of real-time streaming responses into the web app.
 - Add CSS for better user experience
 
