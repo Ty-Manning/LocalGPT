@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local LLM Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='scripts.js') }}" defer></script>
+</head>
+<body>
+    <h1>Local LLM Chat</h1>
+    <div>
+        <label for="input">Message:</label>
+        <input type="text" id="input">
+        <label for="model">Model:</label>
+        <select id="model"></select>
+        <label for="history">Save to History:</label>
+        <input type="checkbox" id="history">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <div id="response"></div>
+</body>
+</html>
