@@ -1,6 +1,6 @@
 # LocalGPT
 
-LocalGPT is a web application that serves a local Large Language Model (LLM) using a Flask API. It interacts with the Ollama Python libraries and API to provide natural language processing capabilities.
+LocalGPT is a web application that serves a local Large Language Model (LLM) using a Flask API. It interacts with the Ollama Python libraries and API to provide language processing capabilities.
 
 ## Project Structure
 
