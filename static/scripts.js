@@ -1,3 +1,7 @@
+// Define the local IP address at the top of the file
+const local_ip = 'http://10.0.0.135:5000';
+
+// Function to send a message to the server
 async function sendMessage() {
     const message = document.getElementById('input').value;
     const model = document.getElementById('model').value;
@@ -5,7 +9,7 @@ async function sendMessage() {
     const apiVersion = "v1";
 
     const body = JSON.stringify({ model, message });
-    const response = await fetch(`http://localhost:5000/${apiVersion}/chat`, {
+    const response = await fetch(`${local_ip}/${apiVersion}/chat`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -23,11 +27,13 @@ async function sendMessage() {
     }
 }
 
+// Function to get the list of models from the server
 async function getModels() {
-    const response = await fetch('http://localhost:5000/v1/models');
+    const response = await fetch(`${local_ip}/v1/models`);
     const data = await response.json();
     const modelSelect = document.getElementById('model');
     modelSelect.innerHTML = data.data.map(model => `<option value="${model}">${model}</option>`).join('');
 }
 
+// Initialize the page by loading the models
 window.onload = getModels;
