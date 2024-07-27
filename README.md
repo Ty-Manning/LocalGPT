@@ -34,6 +34,7 @@ LocalGPT is a web application that serves a local Large Language Model (LLM) usi
 
 ## Future Work
 
+- Image generation and Image recognition using Stable Diffusion.
 - Integration of real-time streaming responses into the web app.
 - Create docker container to do everything in. 
 - Proper memory management with seperate conversions.
