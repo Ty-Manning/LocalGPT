@@ -27,14 +27,14 @@ LocalGPT is a web application that serves a local Large Language Model (LLM) usi
 
 ## Installation
 
-1. Clone the repository. Install the required packages. Run mainv1.py.
-2. Open your web browser and navigate to `http://localhost:5000` to access the web application.
+1. Clone the repository. Install the required packages.
+2. Change the "local_ip" variable in the scripts.js file to be the IP of the machine running the web app.
+3. Run mainv1.py.
+4. Open your web browser and navigate to `http://localhost:5000` to access the web application.
 
 ## Future Work
 
-- Allow access network wide. This will also allow port forwarding or similar such that the service can be accessed from anywhere. - **This is priorty #1**
 - Integration of real-time streaming responses into the web app.
-- Add CSS for better user experience
 - Create docker container to do everything in. 
 
 ## License
