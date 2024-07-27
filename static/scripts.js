@@ -1,7 +1,7 @@
-// Define the local IP address at the top of the file
+// Define the local IP here
 const local_ip = 'http://10.0.0.135:5000';
 
-// Function to send a message to the server
+// Send a message to the server
 async function sendMessage() {
     const message = document.getElementById('input').value;
     const model = document.getElementById('model').value;
@@ -27,7 +27,7 @@ async function sendMessage() {
     }
 }
 
-// Function to get the list of models from the server
+// Get the models from API
 async function getModels() {
     const response = await fetch(`${local_ip}/v1/models`);
     const data = await response.json();
