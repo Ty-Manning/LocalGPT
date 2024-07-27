@@ -36,6 +36,7 @@ LocalGPT is a web application that serves a local Large Language Model (LLM) usi
 
 - Integration of real-time streaming responses into the web app.
 - Create docker container to do everything in. 
+- Proper memory management with seperate conversions.
 
 ## License
 
