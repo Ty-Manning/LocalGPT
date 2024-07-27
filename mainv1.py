@@ -4,7 +4,7 @@ import requests
 import ollama  
 
 app = Flask(__name__) 
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
 chat_history = []  # This will store chat history
 
 @app.route('/') 
