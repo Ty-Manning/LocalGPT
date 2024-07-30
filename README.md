@@ -14,8 +14,7 @@ LocalGPT is a web application that serves a local Large Language Model (LLM) usi
 
 - **Flask API**: Provides an interface for interacting with the local LLM.
 - **Ollama Integration**: Uses Ollama Python libraries and API for language model functionality.
-- **Real-Time Streaming**: Supports streaming responses in real-time from the LLM, although this feature is not yet integrated into the web app. As a result, the LLM may be slow with large responses.
-
+- **Real-Time Streaming**: Supports streaming responses in real-time from the LLM
 ## Models
 
 - Default models: "qwen2" and "llama3". These models can be changed as needed.
@@ -30,14 +29,12 @@ LocalGPT is a web application that serves a local Large Language Model (LLM) usi
 1. Clone the repository. Install the required packages.
 2. Change the "local_ip" variable in the scripts.js file to be the IP of the machine running the web app.
 3. Run mainv1.py.
-4. Open your web browser and navigate to `http://localhost:5000` to access the web application.
+4. Open your web browser and navigate to `http://localhost:5000` or whatever local ip you set to access the web application.
 
 ## Future Work
 
 - Image generation and Image recognition using Stable Diffusion.
-- Integration of real-time streaming responses into the web app.
 - Create docker container to do everything in. 
-- Proper memory management with seperate conversions.
 
 ## License
 
