@@ -5,8 +5,9 @@ LocalGPT is a web application that serves a local Large Language Model (LLM) usi
 
 - This project uses a custom API. This API integrates with the ollama API running on your system, the ollama python library, and **more to come**. 
 This intermediate API is not necessary, strictly speaking, because you could just access those APIs directly. 
-But it provides a uniform way to interface with all of the other backend structures. The only 
-API that is not started automatically is the Ollama API.
+But it provides a uniform way to interface with all of the other backend structures. The API documentation for this project includes 
+all major endpoints from all APIs that are started automatically. The only 
+API that is not started automatically is the Ollama API. 
 ## Project Structure
 
 
