@@ -3,6 +3,7 @@
 LocalGPT is a web application that serves a local Large Language Model (LLM) using a Flask API. It interacts with the Ollama Python libraries and API to provide language processing capabilities.
 **This project REQUIRES Ollama installed and running on your system. You must have at least one model installed. Place that model name in the API endpoint for models. Currently the models are hardcoded.**
 
+- This project uses a custom API. This API integrates with the ollama API running on your system, the ollama python library, and **more to come**
 ## Project Structure
 
 
