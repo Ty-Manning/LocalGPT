@@ -34,20 +34,32 @@ API that is not started automatically is the Ollama API.
 **WARNING:** This project is intended for development, testing, and education purposes only. It should not be used in a production environment.
 
 ## Installation
-
-1. Clone the repository. Install the required packages.
-2. Change the "local_ip" variable in the scripts.js file to be the IP of the machine running the web app.
-3. Run mainv1.py.
-4. Open your web browser and navigate to `http://localhost:5000` or whatever local ip you set to access the web application.
+1. Install ollama. Theres plenty of tutorials on this but I include a brief overview near the bottom of this readme.
+2. Clone the repository. Install the required packages.
+3. Change the "local_ip" variable in the scripts.js file to be the IP of the machine running the web app.
+4. Run mainv1.py.
+5. Open your web browser and navigate to `http://localhost:5000` or whatever local ip you set to access the web application.
 
 ## Future Work
 
 - Image generation and Image recognition using Stable Diffusion.
 - Create docker container to do everything in. 
 
-## License
+## Installing Ollama
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+1. Go to [https://ollama.com/](https://ollama.com/) and download the program.
+2. Run the installer and follow the on-screen instructions to install Ollama.
+3. After installation, open your terminal or command prompt.
+4. Run the following command to pull a model:
+   ```bash
+   ollama pull <model_name>
+   ```
+   Replace `<model_name>` with the name of the model you want to download. Models can be found at [https://ollama.com/library](https://ollama.com/library).
+5. To verify that Ollama is running properly, use the following command:
+   ```bash
+   ollama run <model_name>
+   ```
+   This will open a chat window in your terminal.
 
 
 ## Support the Project
