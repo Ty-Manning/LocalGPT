@@ -46,8 +46,10 @@ API that is not started automatically is the Ollama API.
 - Create docker container to do everything in. 
 
 ## Installing Ollama
-
-1. Go to [https://ollama.com/](https://ollama.com/) and download the program.
+-**IF ON WINDOWS YOU MUST USE WSL. THEN FOLLOW THESE INSTRUCTIONS.**
+1. Download the installer: '''bash
+curl -fsSL https://ollama.com/install.sh | sh
+'''
 2. Run the installer and follow the on-screen instructions to install Ollama.
 3. After installation, open your terminal or command prompt.
 4. Run the following command to pull a model:
