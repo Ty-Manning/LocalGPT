@@ -52,7 +52,7 @@ API that is not started automatically is the Ollama API.
    curl -fsSL https://ollama.com/install.sh | sh
    ```
 2. Run the installer and follow the on-screen instructions to install Ollama.
-3. After installation, open your terminal or command prompt.
+3. After installation, open a new terminal.
 4. Run the following command to pull a model:
    ```bash
    ollama pull <model_name>
