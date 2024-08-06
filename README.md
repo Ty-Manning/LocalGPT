@@ -46,7 +46,7 @@ API that is not started automatically is the Ollama API.
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
-### Support the Project
+## Support the Project
 
 I create and maintain **LocalGPT with Images** purely for fun, but your support is greatly appreciated. If you'd like to contribute, here are some ways you can help:
 
