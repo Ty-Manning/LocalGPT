@@ -11,7 +11,7 @@ The API documentation for this project includes
 all major endpoints from all APIs that are started automatically. The only 
 API that is not started automatically is the Ollama API. 
 
-
+-**FOOOCUS INTEGRATION NOT YET COMPLETE**
 ## Project Structure
 
 
