@@ -67,7 +67,7 @@ API that is not started automatically is the Ollama API.
 
 ## Support the Project
 
-I create and maintain **LocalGPT with Images** purely for fun, but your support is greatly appreciated. If you'd like to contribute, here are some ways you can help:
+I create and maintain **LocalGPT** purely for fun, but your support is greatly appreciated. If you'd like to contribute, here are some ways you can help:
 
 - **BTC**: `bc1q9x6zrts3prgankxs3sk5qpt942c3039vay9m0l`
 - **ETH**: `0xeAF0bF2dd1b72AB756ce5F528C7DE0Cae269f6C6`
